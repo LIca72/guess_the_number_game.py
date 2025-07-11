@@ -1,0 +1,20 @@
+
+
+count = 0  # Number of attempts used
+secret_num = 2  # Secret number to guess
+
+while count < 3:
+    try:
+        number = int(input("🎯 Введіть число: "))
+
+        if number == secret_num:
+            print("🎉 Ти вгадав!")
+            break
+        else:
+            count += 1
+            if count < 3:
+                print("🙈 Ти не вгадав, спробуй ще раз.")
+            else:
+                print("😔 Спроби закінчились, ти не вгадав.")
+    except ValueError:
+        print("⚠️ Будь ласка, введи ціле число.")
