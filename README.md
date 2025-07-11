@@ -15,4 +15,4 @@ A simple **Python console game** where the user tries to guess the secret number
 - If the guess is wrong, the user will be prompted to try again until the attempts run out.
 
 ✨ You can fork this project, modify it for your own learning, or use it in your beginner Python portfolio.
-
+.
